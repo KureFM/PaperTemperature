@@ -1,0 +1,9 @@
+﻿@{
+    ViewBag.Title = Res.SubjectTitle(ViewBag.SubjectID);
+    string id = string.Format("{0:D2}", ViewBag.SubjectID);
+    Layout = "~/Views/Shared/_WebTemplate.cshtml";
+}
+
+@{
+    Html.RenderPartial(id);
+}

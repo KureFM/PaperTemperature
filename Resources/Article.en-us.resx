@@ -1,0 +1,418 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Article01Author01" xml:space="preserve">
+    <value>Lu Jing ren</value>
+  </data>
+  <data name="Article01Author01P01" xml:space="preserve">
+    <value>Born in Shanghai in 1947. Book design guru, illustrations designers, visual artists, AGI international graphic design Association. Kobe Arts School under the tutelage of Engineering Professor Kohei Sugiura, currently professor at Tsinghua University, the Central Academy of Fine Arts professor. Publishers Association of China, deputy director of the Arts Council book binding, deputy director of the National Arts Council Book Binding, Press Binding central departments Arts Committee, China Artists Association illustration Binding Art Committee.</value>
+  </data>
+  <data name="Article01Author02" xml:space="preserve">
+    <value>Wu Yong</value>
+  </data>
+  <data name="Article01Author02P01" xml:space="preserve">
+    <value>Born in Beijing in 1963, now lives in Chengdu, Sichuan. He is a researcher at the Chinese Academy of Arts, an artist, world culture and art Research Center, the International Chinese Artists Association, the World Academy of Zen Buddhist painting, sea lamp Master 武馆武 surgery consultant, martial arts famous contemporary artists Zen painting, modern Zen painting art founder of Zen painting art representatives.</value>
+  </data>
+  <data name="Article01Author02P02" xml:space="preserve">
+    <value>The publication of "martial artist Wu Yong" Mei Zen Paintings; "1997 martial artist Wu Yong Zen painting art calendar", "Chinese martial arts Zen painter Wu Yong", "Wu Yong Zen Paintings", "" Wu Yong Zen painting album postcard. " China Post Office who works sixteen he released stamps. He also won the "German art double chime artist", "21st Century distinguished experts", "people painting artist" title, and the first human UNESCO Award - Gold Medal for Fine Arts.</value>
+  </data>
+  <data name="Article01Author02P03" xml:space="preserve">
+    <value>
+His works have been collected by the National Museum and other units.</value>
+  </data>
+  <data name="Article01Author03" xml:space="preserve">
+    <value>Ma Ying-jeou &amp; Oranges</value>
+  </data>
+  <data name="Article01Author03P01" xml:space="preserve">
+    <value>Formerly known as Ma Huimin, Guo Chengcheng, two in 2000 graduated from the Graphic Design Department of Tsinghua University, works in domestic and international design competition awards include: The 87th New York Art Directors Club (ADC) Silver Cube Award, 07GDC whole Biennale field awards, image recognition and Publications Gold Award Gold Award, 2004, 2005, 2006, 2007 for four consecutive years, "China's most beautiful book" Book Binding exhibition Sixth China Gold, 07 Louder, X-Chin, 70 / 80 design exhibitions. Lives and works in Beijing.</value>
+  </data>
+  <data name="Article01H2" xml:space="preserve">
+    <value>Exhibitor China Designer</value>
+  </data>
+  <data name="Article01P01" xml:space="preserve">
+    <value>November 6, 2012 to 18, as the three East Asian countries (Japan, China, Korea) joint research projects in conjunction with the construction of books "book. Build" exhibition will be held at Daikanyama. Meanwhile, the exhibition of "the book of the universe" as its theme, will be held on the books of the International Collection of works. Excavated from various countries of the world aimed to introduce new talent, while expanding the possibility of this rich media books of endless charm.</value>
+  </data>
+  <data name="Article01P02" xml:space="preserve">
+    <value>China,Japan and South Korea exchange sometimes in history, sometimes antagonistic, mutually influential, but also has the use of Chinese characters, chopsticks, soy sauce, etc. with a common tradition. Conception LOCUS DESIGN FORUM is designed to enable extraction from the Western culture of modernism, and its integration into the local culture after their own way to respond to these three countries, as a rational and emotional characters civilized coexistence circle, in clear itself At the same location as the present and the future release of information platform and a common culture play a role. "LOCUS" once "position" and "local" a combination of the Latin Chinese "place" means. Historian Toynbee once said, the fate of civilization depends on the "challenge" and "response." The forum will challenge and respond deemed its mission, to carry out various activities.</value>
+  </data>
+  <data name="Article01P03" xml:space="preserve">
+    <value>As the first planning activities, the Forum will be held in conjunction with the construction of the book "book. Build" exhibition.</value>
+  </data>
+  <data name="Article01P04" xml:space="preserve">
+    <value>In terms of book design has a long tradition and unique culture of Japan, China, South Korea will send a combination of four groups of designers were architects added to the "book" as the theme for the competition performances. Trying to elaborate a "book" of many possibilities, many of the "book" of the end of the book of creation and display.</value>
+  </data>
+  <data name="Article01Title" xml:space="preserve">
+    <value>2012. "Book building" exhibition: binding books and Architecture</value>
+  </data>
+  <data name="Article02P01" xml:space="preserve">
+    <value>"Paper non-paper - paper art exhibition in China and Japan Paper Art Exhibition first back" on January 13, 2012 at the opening of the Central Academy of Fine Arts, the exhibition is composed of the Central Academy of Fine Arts and the Tokyo University of the Arts co-sponsored, in this exhibition we see as the most suitable for household art materials, paper, the original has unlimited possibilities.</value>
+  </data>
+  <data name="Article02P02" xml:space="preserve">
+    <value>Paper as we know it is a very strong plasticity of the material, the use of paper material as furniture raw materials, with the protection of the ecological environment, energy conservation, rich variety of furniture and other characteristics.</value>
+  </data>
+  <data name="Article02P03" xml:space="preserve">
+    <value>Nowadays more and more young people concerned about the paper furniture, they advocate natural, environmentally friendly, healthy home,</value>
+  </data>
+  <data name="Article02P04" xml:space="preserve">
+    <value>Exhibition concept:</value>
+  </data>
+  <data name="Article02P05" xml:space="preserve">
+    <value>As an important carrier of oriental art, "paper" in Chinese and Japanese art has a strong tradition, for the use of paper, including China, Japan and throughout Asia, including the common characteristics of art. After more than a year organization plan "paper non-paper -  In Japanese Paper Art Exhibition" was able in Beijing Central Academy of Fine Art Museum.</value>
+  </data>
+  <data name="Article02P06" xml:space="preserve">
+    <value>The exhibition around the "paper" concept, to explore "paper" and the possibility to express cultural connotation of "paper" in the contemporary cultural context, but also based on "paper  Non-paper" as the first of the Eastern spiritual themes in Japan and other issues of common concern were discussed in a meaningful artistic practice. "Paper" is an important carrier of oriental art, has been widely used since ancient times, the Chinese invented paper, the seventh century, when paper spread to Japan, the paper is one of the most important mediums record and performance in the East Asian civilization. "Non-paper" is but one of the meaning and ideas about the "paper" on paper other than the media, to convey, especially for the development of 20th-century art in Asia is at the core of the paper is different from that of Western modernity road.</value>
+  </data>
+  <data name="Article02P07" xml:space="preserve">
+    <value>Along with economic globalization, the East Asian countries to learn from the West - especially China and Japan, more and more attention to the subject of their own culture, with a "paper" to express the spirit of the East, can be said to establish its own unique culture value. More than ten years there have been many international art discussion about the art of paper (Paper Art), and also held many exhibitions related to paper; discussion paper art generally includes two aspects: First Paper Art (Art on Paper ), including various forms of painting, photography and so on; the second is a paper medium (Paper as Media, or Art in Paper), including painting, sculpture, installations, comprehensive material works and so on.</value>
+  </data>
+  <data name="Article02P08" xml:space="preserve">
+    <value>The China and Japan Paper Art Exhibition in the first round, on the basis of these two concepts, we propose a new concept - the concept paper (Paper as Concept), and thus lead to the exhibition's theme: "non-paper  paper "(Paper, Non Paper). "Paper  Non-paper" means paper is not just paper, "paper" means paper related with "non-paper" meant nothing to do with the paper, "paper  Non-paper" means paper more possibilities of art, It means "no" and also means "there."</value>
+  </data>
+  <data name="Article02Title" xml:space="preserve">
+    <value>2012 "paper non-paper" in China and Japan Paper Art Exhibition</value>
+  </data>
+  <data name="Article03P01" xml:space="preserve">
+    <value>First China International Corrugated expand founded in 2001, a total of 171 corrugated manufacturing equipment and consumables suppliers participating. Development until 2011, the China International Exhibition corrugated over 550 exhibitors, it is the first exhibition of three times. Today, China has not only SinoCorrugated China and the global corrugated industry's leading event, but also the fastest-growing professional event corrugated box industry.</value>
+  </data>
+  <data name="Article03P02" xml:space="preserve">
+    <value>The number of visitors Chinese SinoCorrugated greater growth rates. In 2001, a total of 4,275 professional visitors from the corrugated box industry visited the exhibition. After ten years to 2011 China International Corrugated Show, the number of visitors increased by nearly six-fold, to 22,251 people.</value>
+  </data>
+  <data name="Article03P03" xml:space="preserve">
+    <value>April 8, 2013 morning, by the Reed-sponsored the "2013 China International Corrugated Show" at the Shanghai New International Expo Center kicked off. Corrugated extension for the current April 8, 2013 - 11 days, an exhibition area of 61,700 square meters, bringing together more than 600 from China and around the world supplier of corrugated equipment and consumables manufacturers and paper suppliers.</value>
+  </data>
+  <data name="Article03P04" xml:space="preserve">
+    <value>SinoCorrugated provide industry professionals the latest manufacturing technology, industry trends, global trends, as well as opportunities to expand in emerging markets an important opportunity. Exhibition showcasing more than 1,000 species of corrugated box manufacturing solutions, gathered corrugated industry leading supplier of equipment and supplies, and the Asia-Pacific region has a high purchasing power of professional buyers and traders to build their communication and trade exchanges between the solid platform.</value>
+  </data>
+  <data name="Article03Title" xml:space="preserve">
+    <value>2013 China International Corrugated Show</value>
+  </data>
+  <data name="Article04P01" xml:space="preserve">
+    <value>πDay design business salon with "design business" as the theme, the so-called design business, in fact, is designed to raise addiction designers, engineers, programmers as the main mode via the Internet thinking and venture capital, the integration of design, technology and business resources to solve user problems and meet the needs of users and, ultimately, financial freedom and personal liberty.</value>
+  </data>
+  <data name="Article04P02" xml:space="preserve">
+    <value>This time, we invited 12 business leaders to explore design integration with various fields, involving industrial design, the Internet, electronic hardware, manufacturing, marketing, and other investment channels, allowing people to participate directly generate resources docking, the product concept to paving the way for mass production.</value>
+  </data>
+  <data name="Article04P03" xml:space="preserve">
+    <value>Turnkey Service to explore new developments in this exhibition focuses on cutting-edge design to seize the ideas and methods, intelligent hardware entrepreneurial wave, upgrade the manufacturing sector, the public raised pattern, business development brand channels, a passenger, the chip program , technological change things, equity investment trend analysis, the 1,500 square meters of space divided into Pozible raise public platform areas, industrial design and creative product area, artificial intelligence and 3D printing area, wit cloud area, control area where, intelligent Living area networking technology area, there are nearly 100 hardware business team participating in this event.
+</value>
+  </data>
+  <data name="Article04Title" xml:space="preserve">
+    <value>2014 Shanghai πDay</value>
+  </data>
+  <data name="Article05P01" xml:space="preserve">
+    <value>To cut Yichun word, chill people scissors. In the Tang Dynasty poet Cui Tao Rong handed down poems, written in these two quite life charm. Poem "Yichun word" is that we are now well-known paper-cut.</value>
+  </data>
+  <data name="Article05P02" xml:space="preserve">
+    <value>Paper-cut, also known as engraved paper, is one of the oldest and most traditional folk art and its history can be traced back to the 6th century AD. Paper-cut origin, initially for ritual sacrifice, hollow into a variety of patterns on paper, in order to move the soul ancestors. With the development of society, paper-cut gradually shifted from ritual function landscaping features. On the windows, lintels, red, white wedding occasions everywhere exquisite paper-cut, ordinary people who witnessed the emotions</value>
+  </data>
+  <data name="Article05P03" xml:space="preserve">
+    <value>2006, paper-cut is included in the "first batch of national intangible cultural heritage", so that the two folk paper-cut artist was "both happy and worried." The joy is that this ancient craft has been more and more attention; the worry is also meant to be included in the list are in the process of disappearing paper-cut state, authorities hope that in this way it passed along.</value>
+  </data>
+  <data name="Article05P04" xml:space="preserve">
+    <value>After being included in the paper-cut national non-heritage list soon, 唐爱春 also declare their paper-cut works to the relevant departments. In the efforts of all parties, the state has been successfully selected paper cutting Guangxi intangible cultural heritage. Her works were sent to the National Museum of Guangxi, Shanxi Youyu County Clerk will cut art and many other units, as works of art permanently preserved.</value>
+  </data>
+  <data name="Article05Title" xml:space="preserve">
+    <value>Explore the traditional process of Guilin fingertips: folk paper-cut</value>
+  </data>
+  <data name="Article06P01" xml:space="preserve">
+    <value>One of the four famous Chinese inventions - papermaking, has been nineteen hundred years of history. While it has long been using modern industrial equipment to produce paper, but Ma Village in Longsheng County Longji town, and the Mengcun Longsheng town, there continues to this day folk handmade paper. However, due to the complex process, not economic, such "antique" traditional hand papermaking, despite a whole village to bring up the last large-scale production of prosperity, but now has very few of the workshops. Recently, this reporter went to the village of Dragon Town mohair, visit handmade paper workshop, feel the charm of traditional hand papermaking process.</value>
+  </data>
+  <data name="Article06P02" xml:space="preserve">
+    <value>Drain water wet paper still bonded together, difficult to separate from the paper to be at the head with pliers pliers to open a picture, sorting.</value>
+  </data>
+  <data name="Article06P03" xml:space="preserve">
+    <value>Meng Huan Bin couples will drain through the wet paper separated one by one, in a cool dry places, so that the sheet to dry, to prevent wrinkling.</value>
+  </data>
+  <data name="Article06P04" xml:space="preserve">
+    <value>Handmade paper Square is spread far and few in the private sector an ancient civilization can be saved here so authentic handmade paper craft, is entirely a miracle. Currently, the village is a positive declaration mohair intangible cultural heritage to be protected, while relying on eco-tourism approach, inherit and continue this tradition craft.</value>
+  </data>
+  <data name="Article06Title" xml:space="preserve">
+    <value>Original papermaking Longsheng the mountains</value>
+  </data>
+  <data name="Article07P01" xml:space="preserve">
+    <value>July 16, xiuren Lipu County town built Street of old artists in the production of paper models crafts. Lipu Zhizha process is a regional-level intangible cultural heritage items.</value>
+  </data>
+  <data name="Article07P02" xml:space="preserve">
+    <value>At 20:00 on October 21 and more, the city's Zhongshan Road full of people, very lively, fourth Guilin International Cultural Tourism Festival artistic landscape parade staged passion here. Guilin in the show's 46 colorful culture square in Lipu County, "Zodiac" great blend of craft paper strips ---  Lifelike picture zodiac attracted the attention of the audience, won waves of applause.</value>
+  </data>
+  <data name="Article07P03" xml:space="preserve">
+    <value>If it is not in such a large cultural festival, to see such a variety of paper models crafts show is not so easy. Relevant information, Zhizha originated in the ancient folk religion ritual activities, and later evolved into a celebration of traditional festivals a decorative arts, especially in the Ming and Qing dynasties, a festive occasion or celebration is full of folk artists to display their skills when.</value>
+  </data>
+  <data name="Article07P04" xml:space="preserve">
+    <value>Lipu xiuren in town, this town has a traditional paper strips, with the development of the times, and now the process will Zhizha old artist, but three people. October 11 afternoon, the reporter came here to visit the One Zhizha folk artists.</value>
+  </data>
+  <data name="Article07P05" xml:space="preserve">
+    <value>The most notable people or those who have made Zhizha Crafts: Lion's Head, the generals, like, Pearl, leading ...... these paper strips crafts colorful, lifelike.</value>
+  </data>
+  <data name="Article07PicInfo01" xml:space="preserve">
+    <value>Xi Xie should give Zhizha portrait painted in color.</value>
+  </data>
+  <data name="Article07Title" xml:space="preserve">
+    <value>Visit Lipu xiuren town Zhizha process: once a household name now only 3 people</value>
+  </data>
+  <data name="Article08P01" xml:space="preserve">
+    <value>Paper umbrella, the traditional culture has a long history narratives. Through 1,000 years of history, and in the country and many Asian countries continue to pass on, to flourish.</value>
+  </data>
+  <data name="Article08P02" xml:space="preserve">
+    <value>In Guilin, the art of paper umbrella once widespread. Among them, the Luo Jin Yongfu County town most famous paper umbrella. October 10, the reporter walked into the town of Guilin Luo Luo Jin Jin Cheng Li, an umbrella non-genetic sixty-seven in there to visit the glorious centuries of tradition craft.</value>
+  </data>
+  <data name="Article08P03" xml:space="preserve">
+    <value>Paper umbrella not only exquisite beauty, but also rain and sun but also in people's daily lives have been widely used. According to relevant historical records, paper umbrella has been used for 1,000 years, but also in domestic and many Asian countries have been continuously inherit and carry forward.</value>
+  </data>
+  <data name="Article08P04" xml:space="preserve">
+    <value>November 9, 2011 - 11 days, by the China Paper Association's "2011 China International Paper and Equipment Exhibition and the National Order Paper Fair" held as scheduled in the landscape of Guilin International Convention and Exhibition Centre under heaven.</value>
+  </data>
+  <data name="Article08PicInfo01" xml:space="preserve">
+    <value>Lee sixty-seven elderly wife playing with homemade paper umbrella rotation</value>
+  </data>
+  <data name="Article08PicInfo02" xml:space="preserve">
+    <value>Exquisite umbrella</value>
+  </data>
+  <data name="Article08Title" xml:space="preserve">
+    <value>Explore Guilin traditional process: disappearing beautiful paper umbrella</value>
+  </data>
+  <data name="Article09H201" xml:space="preserve">
+    <value>Postcard kind show</value>
+  </data>
+  <data name="Article09P01" xml:space="preserve">
+    <value>Maybe you came to this campus, felt the fresh air here; maybe you've spent strolling the river, saw the blue sky and the beautiful sunset; perhaps you did not know him but heard friends mention ...... but you do not know her other side - presented in the paper side. Let us lead your eyes into this a strange and familiar place ......</value>
+  </data>
+  <data name="Article09PicInfo01" xml:space="preserve">
+    <value>Guilin University of Electronic Science and Technology campus gate HUAJIANG</value>
+  </data>
+  <data name="Article09PicInfo02" xml:space="preserve">
+    <value>Guilin University of Electronic Science and Technology campus welcome Huajiang Bridge</value>
+  </data>
+  <data name="Article09PicInfo03" xml:space="preserve">
+    <value>Campus Teaching Building Huajiang Guilin University of Electronic Technology</value>
+  </data>
+  <data name="Article09PicInfo04" xml:space="preserve">
+    <value>Guilin University of Electronic Science and Technology Training Center campus HUAJIANG</value>
+  </data>
+  <data name="Article09PicInfo05" xml:space="preserve">
+    <value>Guilin University of Electronic Technology HUAJIANG campus administration building</value>
+  </data>
+  <data name="Article09PicInfo06" xml:space="preserve">
+    <value>Guilin University of Electronic Technology HUAJIANG Campus Library</value>
+  </data>
+  <data name="Article09PicInfo07" xml:space="preserve">
+    <value>Guilin University of Electronic Technology Research Institute Letter</value>
+  </data>
+  <data name="Article09PicInfo08" xml:space="preserve">
+    <value>East Teaching Building Guilin University of Electronic Technology</value>
+  </data>
+  <data name="Article09PicInfo09" xml:space="preserve">
+    <value>Guilin University of Electronic Technology Eastern Library</value>
+  </data>
+  <data name="Article09Title" xml:space="preserve">
+    <value>Paper Gui - The one you do not know Gui electrical</value>
+  </data>
+  <data name="Article09TitleLite" xml:space="preserve">
+    <value>Campus on the paper</value>
+  </data>
+  <data name="Article10P01" xml:space="preserve">
+    <value>Huajiang campus library is one of the largest monomer construction in colleges and universities library, the building area of 42000 square meters. Library has offices, technical information department, editorial department, circulation department, reading department, huajiang campus management and other business department. Paper books collection of 1.74 million books, 1.23 million kinds of electronic books, foreign language core database 26, 45 Chinese database, chinese-foreign journals (including electronic journals) more than 19000. With advanced network information platform, all kinds of public service facilities. </value>
+  </data>
+  <data name="Article10P02" xml:space="preserve">
+    <value>Since 1995, the introduction of ILAS system, the realization of computer management, strive to build a digital library, the introduction of knowledge discovery system, RFID system, self-service printing system, mobile library, WeChat library, the construction of the efficient literature information center of personalized, intelligent, open, let the teachers and students is not subject to any restrictions, time and space at any can implement library and cloud library networking devices of various kinds of unified retrieval, full access to information resource and push service, offering online reading, full-text retrieval, offline borrowing, mobile reading, download, print and other digital content and knowledge service. </value>
+  </data>
+  <data name="Article10P03" xml:space="preserve">
+    <value>Library is the home of paper, paper shoulder the responsibility of the transfer of knowledge and power, the library of guangxi electric power between teachers and students built the feeling of a family full of knowledge. Here we study, here communication, bring the spirit of nutrient absorption paper here, here also continue to improve yourself. We are lucky, and do not need to transport volumes of books, also do not need scaling of borrowing books, more do not need grottoes to keep knowledge. Life in the 21st century we have paper from one of the most abundant resources, personal feel it brought about by the temperature. </value>
+  </data>
+  <data name="Article10PicInfo01" xml:space="preserve">
+    <value>GUET huajiang campus library external positive </value>
+  </data>
+  <data name="Article10PicInfo02" xml:space="preserve">
+    <value>Library's internal landscape </value>
+  </data>
+  <data name="Article10PicInfo03" xml:space="preserve">
+    <value>On the second floor local library </value>
+  </data>
+  <data name="Article10PicInfo04" xml:space="preserve">
+    <value>The light and shadow of the library </value>
+  </data>
+  <data name="Article10PicInfo05" xml:space="preserve">
+    <value>The night scenery of the library </value>
+  </data>
+  <data name="Article10Title" xml:space="preserve">
+    <value>Paper home to GUET huajiang campus library</value>
+  </data>
+  <data name="Article10TitleLite" xml:space="preserve">
+    <value>The biggest library in south China</value>
+  </data>
+  <data name="Article11H201" xml:space="preserve">
+    <value>First, the library well organized poster</value>
+  </data>
+  <data name="Article11H202" xml:space="preserve">
+    <value>Second, the activities organized by the scene photos</value>
+  </data>
+  <data name="Article11H203" xml:space="preserve">
+    <value>Third, Showcase</value>
+  </data>
+  <data name="Article11PicInfo01" xml:space="preserve">
+    <value>"Loner" Creation Exhibition Square</value>
+  </data>
+  <data name="Article11PicInfo02" xml:space="preserve">
+    <value>"Youth Ji" Photo Contest</value>
+  </data>
+  <data name="Article11PicInfo03" xml:space="preserve">
+    <value>"Perrier Cup" Painting and Calligraphy Exhibition Calligraphy judges site</value>
+  </data>
+  <data name="Article11PicInfo04" xml:space="preserve">
+    <value>Painting and Calligraphy Exhibition Hall</value>
+  </data>
+  <data name="Article11Title" xml:space="preserve">
+    <value>Paper Exhibition</value>
+  </data>
+  <data name="Article12P01" xml:space="preserve">
+    <value>Paper is our life among the most common things, like air in general, the most obscure but very important. We believe that the most common articles
+Departure, found innovation, is not an ordinary passenger record. So around this point, we are looking for a lot of information on paper. We found a lot of imagery
+Less interesting content. So we focused on finding information on the design, the paper relating to the limit, enjoy to show a different
+The paper's Web site.</value>
+  </data>
+  <data name="Article12P02" xml:space="preserve">
+    <value>Not only just to foreign ideas, we focus on looking for a home design create customer, and for international exhibitions as judges or contestants in the background as well as
+Add a related connection products. Created for local passengers, we are trying to find about Longsheng, Lipu local paper art. Year-off has nothing to do with age, and education
+Nothing to do.</value>
+  </data>
+  <data name="Article12P03" xml:space="preserve">
+    <value>Social science and technology continues to progress with some things are quietly disappear with, such as the city's old bookstores, used bookstores, we have been in a hurry  .Footsteps into nothingness, and now the subway, on the bus was full of flavor shell electronic products. In the long journey of fine chemicals a book is difficult
+It was a sight to see, but this era a few years ago can be seen everywhere. We have a responsibility to protect precious things, of course, there are also efforts of a group of such people
+...... They force the paper is off. They are the world's designers, architects, scientists, although in various fields, different age, but
+They retain the enthusiasm of the paper, which is the temperature of the paper, but also the heart of the paper off their temperature.
+</value>
+  </data>
+  <data name="Article12P04" xml:space="preserve">
+    <value>I hope you through our website to see their creativity and passion for paper there is a deeper level of understanding. Finally, thanks to our websites to provide copyrightDesign addiction, the site most of the creative products are derived from this. Grateful for Gui electrical postcard picture painted for us osmanthus Church, to show us a
+Gui a different electrical, concluded by thanking the members of the group to work together, without your efforts, there is no existence of this site is that you give it a fresh injection
+Live life.</value>
+  </data>
+  <data name="Article12P05" xml:space="preserve">
+    <value>Thanks for life, thanks paper brings us warm.</value>
+  </data>
+  <data name="Article12PicInfo01" xml:space="preserve">
+    <value>This site is "paper-off" as the theme for design, why is the paper it </value>
+  </data>
+  <data name="Article12Title" xml:space="preserve">
+    <value>About Us</value>
+  </data>
+  <data name="WorkLink" xml:space="preserve">
+    <value>Design Works Links</value>
+  </data>
+</root>

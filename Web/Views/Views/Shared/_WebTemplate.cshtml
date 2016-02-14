@@ -1,0 +1,55 @@
+﻿@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    var selected = ((int?)ViewBag.SubjectID) ?? 0;
+}
+
+@section styles{
+    @Styles.Render("~/content/css")
+    @RenderSection("styles", required: false)
+}
+
+
+@section scripts{
+    @RenderSection("scripts", required: false)
+}
+
+<div class="changelang">
+    <a @(I18N.CurrentLanguage == "zh-cn" ? "id=langselected" : "") href="@Url.ChangeLanguage(ViewContext.RouteData.Values, "zh-cn")">简体中文</a>
+    <div class="verticalline"></div>
+    <a @(I18N.CurrentLanguage == "en-us" ? "id=langselected" : "") href="@Url.ChangeLanguage(ViewContext.RouteData.Values, "en-us")">English</a>
+</div>
+<div class="header">
+    <ui class="tabs tabs_height">
+        <li class="logo tabs_height">
+            <a href="@Url.IndexUrl()"></a>
+        </li>
+        <li class="tag tabs_height">
+            <a@(selected==0?" id=selected":"") href="@Url.RouteUrl("Home",new { home = "index" })">@Resources.Common.Index</a>
+        </li>
+
+
+        @foreach (var i in Enumerable.Range(1, 7))
+        {
+            <li class="tag tabs_height">
+                @if (i == selected)
+                {
+                    <a id="selected" href="@Url.SubjectUrl(i)">@Res.SubjectTitle(i)</a>
+                }
+                else
+                {
+                    <a href="@Url.SubjectUrl(i)">@Res.SubjectTitle(i)</a>
+                }
+            </li>
+        }
+    </ui>
+</div>
+@RenderSection("navigation", required: false)
+<div class="content">
+    @RenderBody()
+</div>
+<div class="footer">
+    <a href="@Url.ArticleUrl(12)">
+        <img src="/images/logo.png">
+        <span>@Resources.Common.GroupName</span>
+    </a>
+</div>

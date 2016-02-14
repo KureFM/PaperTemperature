@@ -1,0 +1,160 @@
+.content{
+    position: relative;
+    text-align: center;
+    background-image: url(/images/bg/1.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.grilledisplay{
+    display: inline-block;
+    overflow: hidden;
+    margin: 30px auto;
+    width: 1024px;
+    height: 550px;
+    border: 2px solid #ffc733;
+    /*transform: translate3d(-500px, 0px, 0px);*/
+}
+
+.slidecontainer{
+    position: relative;
+    width: 2465px;
+}
+
+.large, .slideunit{
+    height: 550px;
+    border-style: none solid;
+    border-color: #ffc733;
+    border-width: 1px;
+    /*border: 2px solid solid solid  solid #ffc733;*/
+    float: left;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 512px;
+    transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+}
+
+.slideunit{
+    width: 128px;
+}
+
+.large{
+    position: relative;
+    width: 512px;
+}
+
+.large:hover, .slideunit:hover{
+    background-size: 550px;
+}
+
+.info{
+    position: absolute;
+    bottom: 0;
+    width: 510px;
+    display: block;
+    padding: 10px 0;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.65);
+    opacity: 0;
+    transition: all 0.7s;
+    -webkit-transition: all 0.7s;
+    -o-transition: all 0.7s;
+    -moz-transition: all 0.7s;
+}
+
+.large:hover .info{
+    opacity: 1;
+}
+
+.prev, .next{
+    position: absolute;
+    width: 60px;
+    height: 80px;
+    top: 267px;
+    background-color: rgba(0, 0, 0, 0.35);
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+}
+.prev{
+    background-image: url(../images/grilledisplay/prev.png);
+    background-size: 30%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    left: 0;
+}
+
+.next{
+    background-image: url(../images/grilledisplay/next.png);
+    background-size: 30%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    right: 0;
+}
+
+.prev:hover, .next:hover{
+    background-size: 40%;
+    background-color: rgba(0, 0, 0, 0.65)
+}
+
+.picdetail{
+    z-index: 99;
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.75);
+    width: 1366px;
+    height: 667px;
+}
+
+.picarticle{
+    position: relative;	
+    margin: 50px auto;
+    /*background-color: black;*/
+    width: 900px;
+    height: 640px;
+    background-color: white;
+}
+
+.picscroll{
+    z-index: 100;
+    position: relative;
+    top: 20px;
+    overflow: auto;
+    width: 900px;
+    height: 600px;
+}
+
+.close{
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: -20px;
+    right: -20px;
+    cursor: pointer;
+}
+
+.close img{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.hovered{
+    opacity: 0;
+    transition: opacity 0.3s;
+    -webkit-transition: opacity 0.3s;
+    -o-transition: opacity 0.3s;
+    -moz-transition: opacity 0.3s;
+}
+
+.hovered:hover{
+    opacity: 1;
+}

@@ -1,0 +1,187 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{13950896-837C-4188-9A3B-B33F794B9263}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Resources</RootNamespace>
+    <AssemblyName>Resources</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Article.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Article.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Common.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Common.resx</DependentUpon>
+    </Compile>
+    <Compile Include="ImageRes.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ImageRes.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Res.cs" />
+    <Compile Include="Subject.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Subject.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Welcome.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Welcome.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Article.en-us.resx" />
+    <EmbeddedResource Include="Article.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>Article.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Common.en-us.resx" />
+    <EmbeddedResource Include="Common.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>Common.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ImageRes.en-us.resx" />
+    <EmbeddedResource Include="ImageRes.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>ImageRes.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Subject.en-us.resx" />
+    <EmbeddedResource Include="Subject.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>Subject.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Welcome.en-us.resx" />
+    <EmbeddedResource Include="Welcome.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>Welcome.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\01\en\Subject01Pic01.jpg" />
+    <Content Include="Resources\01\en\Subject01Pic02.jpg" />
+    <Content Include="Resources\01\en\Subject01Pic03.jpg" />
+    <Content Include="Resources\01\en\Subject01Pic04.jpg" />
+    <Content Include="Resources\01\en\Subject01Pic05.jpg" />
+    <Content Include="Resources\01\en\Subject01Pic06.jpg" />
+    <Content Include="Resources\01\Subject01Pic01.jpg" />
+    <Content Include="Resources\01\Subject01Pic02.jpg" />
+    <Content Include="Resources\01\Subject01Pic03.jpg" />
+    <Content Include="Resources\01\Subject01Pic04.jpg" />
+    <Content Include="Resources\01\Subject01Pic05.jpg" />
+    <Content Include="Resources\01\Subject01Pic06.jpg" />
+    <Content Include="Resources\02\en\Subject02Pic01.jpg" />
+    <Content Include="Resources\02\en\Subject02Pic02.jpg" />
+    <Content Include="Resources\02\en\Subject02Pic03.jpg" />
+    <Content Include="Resources\02\en\Subject02Pic04.jpg" />
+    <Content Include="Resources\02\en\Subject02Pic05.jpg" />
+    <Content Include="Resources\02\en\Subject02Pic06.jpg" />
+    <Content Include="Resources\02\en\Subject02Pic07.jpg" />
+    <Content Include="Resources\02\en\Subject02Pic08.jpg" />
+    <Content Include="Resources\02\Subject02Pic01.jpg" />
+    <Content Include="Resources\02\Subject02Pic02.jpg" />
+    <Content Include="Resources\02\Subject02Pic03.jpg" />
+    <Content Include="Resources\02\Subject02Pic04.jpg" />
+    <Content Include="Resources\02\Subject02Pic05.jpg" />
+    <Content Include="Resources\02\Subject02Pic06.jpg" />
+    <Content Include="Resources\02\Subject02Pic07.jpg" />
+    <Content Include="Resources\02\Subject02Pic08.jpg" />
+    <Content Include="Resources\03\en\Subject04Pic01.jpg" />
+    <Content Include="Resources\03\en\Subject04Pic02.jpg" />
+    <Content Include="Resources\03\en\Subject04Pic03.jpg" />
+    <Content Include="Resources\03\en\Subject04Pic04.jpg" />
+    <Content Include="Resources\03\en\Subject04Pic05.jpg" />
+    <Content Include="Resources\03\en\Subject04Pic06.jpg" />
+    <Content Include="Resources\03\en\Subject04Pic07.jpg" />
+    <Content Include="Resources\03\en\Subject04Pic08.jpg" />
+    <Content Include="Resources\03\en\Subject04Pic09.jpg" />
+    <Content Include="Resources\03\en\Subject04Pic10.jpg" />
+    <Content Include="Resources\03\en\Subject04Pic11.jpg" />
+    <Content Include="Resources\03\en\Subject04Pic12.jpg" />
+    <Content Include="Resources\03\en\Subject04Pic13.jpg" />
+    <Content Include="Resources\03\en\Subject04Pic14.jpg" />
+    <Content Include="Resources\03\en\Subject04Pic15.jpg" />
+    <Content Include="Resources\03\Subject04Pic01.jpg" />
+    <Content Include="Resources\03\Subject04Pic02.jpg" />
+    <Content Include="Resources\03\Subject04Pic03.jpg" />
+    <Content Include="Resources\03\Subject04Pic04.jpg" />
+    <Content Include="Resources\03\Subject04Pic05.jpg" />
+    <Content Include="Resources\03\Subject04Pic06.jpg" />
+    <Content Include="Resources\03\Subject04Pic07.jpg" />
+    <Content Include="Resources\03\Subject04Pic08.jpg" />
+    <Content Include="Resources\03\Subject04Pic09.jpg" />
+    <Content Include="Resources\03\Subject04Pic10.jpg" />
+    <Content Include="Resources\03\Subject04Pic11.jpg" />
+    <Content Include="Resources\03\Subject04Pic12.jpg" />
+    <Content Include="Resources\03\Subject04Pic13.jpg" />
+    <Content Include="Resources\03\Subject04Pic14.jpg" />
+    <Content Include="Resources\03\Subject04Pic15.jpg" />
+    <Content Include="Resources\05\en\Subject05Pic01.jpg" />
+    <Content Include="Resources\05\en\Subject05Pic02.jpg" />
+    <Content Include="Resources\05\en\Subject05Pic03.jpg" />
+    <Content Include="Resources\05\en\Subject05Pic04.jpg" />
+    <Content Include="Resources\05\en\Subject05Pic05.jpg" />
+    <Content Include="Resources\05\en\Subject05Pic06.jpg" />
+    <Content Include="Resources\05\en\Subject05Pic07.jpg" />
+    <Content Include="Resources\05\en\Subject05Pic08.jpg" />
+    <Content Include="Resources\05\en\Subject05Pic09.jpg" />
+    <Content Include="Resources\05\en\Subject05Pic10.jpg" />
+    <Content Include="Resources\05\Subject05Pic01.jpg" />
+    <Content Include="Resources\05\Subject05Pic02.jpg" />
+    <Content Include="Resources\05\Subject05Pic03.jpg" />
+    <Content Include="Resources\05\Subject05Pic04.jpg" />
+    <Content Include="Resources\05\Subject05Pic05.jpg" />
+    <Content Include="Resources\05\Subject05Pic06.jpg" />
+    <Content Include="Resources\05\Subject05Pic07.jpg" />
+    <Content Include="Resources\05\Subject05Pic08.jpg" />
+    <Content Include="Resources\05\Subject05Pic09.jpg" />
+    <Content Include="Resources\05\Subject05Pic10.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

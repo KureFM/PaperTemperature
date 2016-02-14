@@ -1,0 +1,109 @@
+.content {
+    text-align: center;
+    background-image: url(/images/bg/3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.listdisplay {
+    margin: 20px auto;
+    width: 1000px;
+    display: inline-block;
+}
+
+.listunit {
+    font-size: 0;
+    margin: 40px 0;
+    height: 200px;
+    width: 1000px;
+}
+
+    .listunit img, .listunit div {
+        /*display: inline-block;*/
+        float: left;
+    }
+
+.frontpic {
+    width: 300px;
+    height: 200px;
+    transition: box-shadow 0.3s;
+    -webkit-transition: box-shadow 0.3s;
+    -o-transition: box-shadow 0.3s;
+    -moz-transition: box-shadow 0.3s;
+}
+
+    .frontpic:hover {
+        box-shadow: 0 0 15px #666666;
+    }
+
+.info {
+    position: relative;
+    text-align: left;
+    margin: 0 0 0 35px;
+    width: 665px;
+    height: 200px;
+}
+
+    .info * {
+        display: inline-block;
+        font-size: 16px;
+    }
+
+    .info .title {
+        margin: 15px 0;
+        font-size: 24px;
+        color: #f34109;
+        transition: text-shadow 0.3s;
+        -webkit-transition: text-shadow 0.3s;
+        -o-transition: text-shadow 0.3s;
+        -moz-transition: text-shadow 0.3s;
+    }
+
+        .info .title:hover {
+            text-shadow: 0 0 25px rgba(66, 66, 66, 0.7);
+        }
+
+    .info .text {
+        margin: 15px 0;
+        font-size: 20px;
+        color: #333333;
+    }
+
+    .info .learnmore {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        padding: 3px 15px;
+        font-size: 14px;
+        color: #f34109;
+        transition: text-shadow 0.3s;
+        -webkit-transition: text-shadow 0.3s;
+        -o-transition: text-shadow 0.3s;
+        -moz-transition: text-shadow 0.3s;
+    }
+
+        .info .learnmore:hover {
+            text-shadow: 0 0 15px #666666;
+        }
+
+.text {
+    text-indent: 2em;
+}
+
+
+.inline {
+    width: 665px;
+    height: 1px;
+    background-color: #f34109;
+    border: none;
+    border-radius: 10px;
+}
+
+.outline {
+    width: 1000px;
+    height: 1px;
+    background-color: #333333;
+    border: none;
+    border-radius: 10px;
+}

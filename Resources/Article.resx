@@ -1,0 +1,415 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Article01Author01" xml:space="preserve">
+    <value>吕敬人</value>
+  </data>
+  <data name="Article01Author01P01" xml:space="preserve">
+    <value>1947年生于上海。书籍设计大师、插图设计大师、视觉艺术家，AGI国际平面设计协会会员。师从神户艺术工科大学院杉浦康平教授，现任清华大学美术学院教授，中央美术学院客座教授。中国出版工作者协会书籍装帧艺术委员会副主任，全国书籍装帧艺术委员会副主任、中央各部门出版社装帧艺术委员会主任，中国美术家协会插图装帧艺术委员会委员。</value>
+  </data>
+  <data name="Article01Author01WorkUrl" xml:space="preserve">
+    <value>http://art.china.cn/products/2014-12/15/content_7443409.htm</value>
+  </data>
+  <data name="Article01Author02" xml:space="preserve">
+    <value>吴勇</value>
+  </data>
+  <data name="Article01Author02P01" xml:space="preserve">
+    <value>1963年出生在北京市，现居四川成都。是中国艺术研究院研究员、一级美术师、世界文化艺术研究中心研究员、国际中国美术家协会会员、世界禅佛书画院院长、海灯法师武馆武术顾问，当代著名武林禅画艺术家，现代禅画艺术创始人，是禅画艺术代表人物。</value>
+  </data>
+  <data name="Article01Author02P02" xml:space="preserve">
+    <value>出版有《武林画家吴勇》禅梅画集；《1997武林画家吴勇禅画艺术台历》，《中国武林禅画家吴勇》,《吴勇禅画集》》、《吴勇禅画专辑邮政明信片》。中国邮政总局曾为他发行十六枚作品邮票。他还荣获“德艺双磬艺术家”、“21世纪杰出专家”、“人民书画艺术家”称号，以及联合国教科文组织首届人类贡献奖——美术类金奖。</value>
+  </data>
+  <data name="Article01Author02P03" xml:space="preserve">
+    <value>其作品先后被国家博物馆等单位收藏。</value>
+  </data>
+  <data name="Article01Author02WorkUrl" xml:space="preserve">
+    <value>http://news.qq.com/a/20081222/001965.htm</value>
+  </data>
+  <data name="Article01Author03" xml:space="preserve">
+    <value>小马哥 &amp; 橙子</value>
+  </data>
+  <data name="Article01Author03P01" xml:space="preserve">
+    <value>原名马惠敏、郭成城，两人2000年毕业于清华大学美术学院平面设计系，作品在国内外设计比赛中获得奖项包括:第87届纽约艺术指导俱乐部（ADC）银色立方体奖，07GDC双年展全场大奖，形象识别类金奖及出版物类金奖，2004、2005、2006、2007年连续四年获得“中国最美的书”，第六届中国书籍装帧展金奖，07大声展、X展、70/80设计展等。现工作生活于北京。</value>
+  </data>
+  <data name="Article01Author03WorkUrl" xml:space="preserve">
+    <value>http://contemporary.artron.net/artist.php?PersonCode=A0260733</value>
+  </data>
+  <data name="Article01H201" xml:space="preserve">
+    <value>参展中国设计师介绍</value>
+  </data>
+  <data name="Article01P01" xml:space="preserve">
+    <value>2012年11月6日至18日，作为东亚三国（日本、中国、韩国）共同研究项目，书籍与建筑的结合“书•筑”展将在代官山举办。同时，展会以“书的宇宙”为主题，将举行一次对书籍作品的国际征集。旨在从世界各国挖掘、介绍新的人才，同时拓展书籍这一富有无穷魅力的媒介的可能性。</value>
+  </data>
+  <data name="Article01P02" xml:space="preserve">
+    <value>中日韩三国在历史长河中时而交流、时而对立，相互间影响深远，也有着使用汉字、筷子，用酱油调味等共同的传统。LOCUS DESIGN FORUM的构想是旨在使从西洋文化中提取出现代主义，并将其溶入本土文化后以各自的方式回应的这三个国家，作为理性和感性共存的汉字文明圈，在明确自身所处位置的同时，作为向现在与未来发布共同文化信息的平台而发挥作用。“LOCUS”一词是“位置”与“当地”的组合，在拉丁语中式“场所”的意思。历史学家托因比曾说过，文明的命运取决于“挑战”和“回应”。本论坛将挑战和回应视为自身的使命，开展各种活动。</value>
+  </data>
+  <data name="Article01P03" xml:space="preserve">
+    <value>作为首个策划活动，论坛将举办书籍与建筑的结合“书•筑”展。</value>
+  </data>
+  <data name="Article01P04" xml:space="preserve">
+    <value>在书籍设计方面都有着悠久传统与独特文化的日本、中国、韩国将分别派出4组设计师加建筑师的组合，以“书”为主题进行竞赛表演。试图阐述“书”的多种可能性、对“书”的多种结束、书的创作及展示。</value>
+  </data>
+  <data name="Article01Title" xml:space="preserve">
+    <value>2012年“书·筑”展: 书籍与建筑的结合</value>
+  </data>
+  <data name="Article02P01" xml:space="preserve">
+    <value>“纸•非纸——中日纸艺术展第一回”于2012年1月13日在中央美术学院美术馆开幕，此次展览是由中央美术学院与东京艺术大学共同联合主办，在这次展览上我们看到了作为最适合做家居艺术品材料的纸，原来有着无限的可能性。</value>
+  </data>
+  <data name="Article02P02" xml:space="preserve">
+    <value>就我们所知纸是一种可塑性非常强的材料,使用纸材作为家具原材料,具有保护生态环境、节约能源、丰富家具品种等特点。</value>
+  </data>
+  <data name="Article02P03" xml:space="preserve">
+    <value>现如今越来越多的年轻人关注纸制家具，他们崇尚天然、环保、健康的家居， 
+纸制家具非常吻合当前绿色设计、低碳生产的大趋势，属于典型的“可持续开发”环保产品——其用最少的原料、最轻的重量，实现最大的承重强度，节约木材等自然资源。</value>
+  </data>
+  <data name="Article02P04" xml:space="preserve">
+    <value>展览的理念：</value>
+  </data>
+  <data name="Article02P05" xml:space="preserve">
+    <value>作为东方艺术的重要载体，“纸”在中国和日本艺术中有着深厚的传统，对于纸的运用，是包括中、日在内的整个亚洲艺术的共同特点。经过一年多时间组织筹划的“纸•非纸——中日纸艺术展”才得以在北京中央美术学院美术馆展出。</value>
+  </data>
+  <data name="Article02P06" xml:space="preserve">
+    <value>此次展览围绕“纸”这一概念，探讨“纸”的文化内涵以及“纸”在当代文化语境下的可能性表达，同时又是以“纸•非纸”作为主题展开一次对东方精神等中日共同关注的课题进行探讨的有意义的艺术实践。“纸”是东方艺术的重要载体，自古以来就被大量使用，中国人发明了纸，公元七世纪的时候纸流传到日本，纸在东亚文明中是纪录与表现的最重要媒材之一。“非纸”的含义是除了在纸上为媒介以外，所要传达的一种与“纸”有关的观念，特别是对于亚洲20世纪艺术的发展是以纸为核心的，是不同于西方现代性的道路。</value>
+  </data>
+  <data name="Article02P07" xml:space="preserve">
+    <value>伴随着经济全球化，学习西方的东亚各国——特别是中国与日本，越来越多地关注自身文化的主体性，用“纸”来表现东方的精神，可以说是确立了自己独特的文化价值。十余年来国际艺术界有过不少关于纸艺术(Paper Art)的讨论，也举办过许多有关纸的展览;有关纸艺术的讨论大体包括两大方面：一是纸上艺术(Art on Paper), 包括各种形式的绘画、摄影作品等;二是纸媒介(Paper as Media, or Art in Paper)，包括各种绘画、雕塑、装置、综合材料作品等等。</value>
+  </data>
+  <data name="Article02P08" xml:space="preserve">
+    <value>本次中日纸艺术展第一回，在以上两个概念的基础上，提出了一个新的理念——纸观念(Paper as Concept)，并由此引发本次展览的主题：“纸•非纸”(Paper， Non Paper)。 “纸•非纸”意味着纸不仅仅是纸，“纸”意味着与纸有关，“非纸”意味着与纸无关，“纸•非纸”意味着纸对于艺术更多的可能性，意味着“无”，也意味着“有”</value>
+  </data>
+  <data name="Article02Title" xml:space="preserve">
+    <value>2012年“纸非纸”中日纸艺术展</value>
+  </data>
+  <data name="Article03P01" xml:space="preserve">
+    <value>首届中国国际瓦楞展开创于2001年，共有171家瓦楞制造设备及耗材供应商参展。发展至2011年，中国国际瓦楞展的参展企业达550家，是首届展会的三倍之多。如今中国国际瓦楞展已不仅是中国乃至全球瓦楞纸箱行业领先的盛会，同时也是瓦楞纸箱行业发展最快的专业盛会。</value>
+  </data>
+  <data name="Article03P02" xml:space="preserve">
+    <value>中国国际瓦楞展的观众数量增长幅度更大。2001年，共有4,275名来自瓦楞纸箱行业的专业观众参观了展会。十年后至2011中国国际瓦楞展，观众人数增长了近6倍，达到22,251人。</value>
+  </data>
+  <data name="Article03P03" xml:space="preserve">
+    <value>2013年4月8日上午，由励展博览集团主办的“2013中国国际瓦楞展”在上海新国际博览中心拉开序幕。本届瓦楞展展期为2013年4月8日-11日，展出面积达61700平方米，汇集了600多家来自中国乃至世界各地的瓦楞设备供应商与耗材生产商及原纸供应商。</value>
+  </data>
+  <data name="Article03P04" xml:space="preserve">
+    <value>国际瓦楞展为行业人士提供了解最新制造技术、业界动向、全球发展趋势，以及拓展新兴市场机遇的重要契机。展会集中展示上千余种瓦楞纸箱制造解决方案，云集了行业知名的瓦楞设备和耗材供应商，与亚太地区具有高采购力的专业买家和贸易商，为其构筑沟通交流与商贸往来的坚实平台。</value>
+  </data>
+  <data name="Article03Title" xml:space="preserve">
+    <value>2013年中国国际瓦楞展</value>
+  </data>
+  <data name="Article04P01" xml:space="preserve">
+    <value>πDay设计创业沙龙以「设计创业」为主题，所谓设计创业，其实是设计癖提出的以设计师、工程师、程序员为主体，通过互联网思维和创投模式，整合设计、科技和商业资源来解决用户问题、满足用户需求，并最终实现财富自由和个人自由的行为。</value>
+  </data>
+  <data name="Article04P02" xml:space="preserve">
+    <value>此次，我们邀请了12位行业领袖探讨设计与各领域的融合，涉及工业设计、互联网、电子硬件、生产制造、渠道营销以及投资等，让参与其中的人直接产生资源对接，为产品概念到量产铺平道路。</value>
+  </data>
+  <data name="Article04P03" xml:space="preserve">
+    <value>本次展会着重抓住前沿的设计思路和方法、智能硬件的创业浪潮、制造业的转型升级、众筹模式的全新探索、品牌渠道的业务拓展、创客的发展动态、芯片方案的交钥匙服务、物联网的技术变革，股权投资的趋势分析等，将1500平米的场地划分为Pozible众筹平台区、工业设计与创意产品区、人工智能与3D打印区、机智云专区、控哪儿专区、智能生活区、物联网技术区，有近100家硬件创业团队应邀参展。</value>
+  </data>
+  <data name="Article04Title" xml:space="preserve">
+    <value>2014年上海πDay</value>
+  </data>
+  <data name="Article05P01" xml:space="preserve">
+    <value>“欲剪宜春字，春寒人剪刀。”在唐代诗人崔道融传世的诗篇中，这两句写得颇有生活意趣。诗中的“宜春字”，就是我们现在所熟知的剪纸。</value>
+  </data>
+  <data name="Article05P02" xml:space="preserve">
+    <value>剪纸，又名刻纸，是最传统最古老的民间艺术之一，其历史可上溯到公元6世纪。剪纸的起源，最初是为了礼祭，以纸镂空成各种图案，以招祖先之 魂灵。随着社会的发展，剪纸渐渐从祭祀功能转向了美化功能。在窗户上、门楣上，红、白喜事的场合里随处可见精美的剪纸，见证着寻常百姓们的喜怒哀乐。</value>
+  </data>
+  <data name="Article05P03" xml:space="preserve">
+    <value>2006年，剪纸被列入了《第一批国家级非物质文化遗产名录》，让两位民间剪纸艺人感到“又喜又忧”。喜的是这门古老的工艺受到了越来越多的关注；忧的是，被列入名录也意味着剪纸工艺正处于逐渐消逝状态，有关部门希望以这种方式让它传承下去。</value>
+  </data>
+  <data name="Article05P04" xml:space="preserve">
+    <value>就在剪纸被列入国家非遗名录不久后，唐爱春也将自己的剪纸作品申报到了市相关部门。在各方的努力下，全州剪纸已成功入选广西壮族自治区非物 质文化遗产名录。而她的作品则被送进了广西民族博物馆、山西省右玉县剪纸艺术文员会等多家单位，作为艺术品永久保存下来。</value>
+  </data>
+  <data name="Article05Title" xml:space="preserve">
+    <value>探寻桂林指尖上的传统工艺：民间剪纸</value>
+  </data>
+  <data name="Article06P01" xml:space="preserve">
+    <value>闻名于世的中国四大发明之一—造纸术，至今已有一千九百多年历史了。虽然现在早已用现代化的工业设备生产纸张，但在龙胜各族自治县的龙脊镇马海村、龙胜镇的上孟村，还有一直延续至今的民间手工造纸。然而，由于工艺复杂、经济效益不大，这种“古董级”的传统手工造纸术，虽曾造就过去整村大规模生产的繁荣景象，但现在作坊已寥寥无几了。近日，记者来到龙脊镇马海村，探访手工造纸坊，感受传统手工造纸工艺的魅力。</value>
+  </data>
+  <data name="Article06P02" xml:space="preserve">
+    <value>榨干水份的湿纸仍然粘结在一起，不易分开，须用钳子从纸头处一张张钳开，进行分拣。</value>
+  </data>
+  <data name="Article06P03" xml:space="preserve">
+    <value>蒙焕斌夫妇将经过榨干的湿纸一张一张地分开，在阴凉的地方进行晾干，使纸页变干，防止起皱。</value>
+  </data>
+  <data name="Article06P04" xml:space="preserve">
+    <value>手工造纸坊是在民间流传至今而为数不多的一种远古文明，在这里能够保存如此地道的手工造纸工艺，完全是一种奇迹。目前，马海村正积极申报非物质文化遗产加以保护，同时依托生态旅游的方式，继承和延续这一传统手艺。</value>
+  </data>
+  <data name="Article06Title" xml:space="preserve">
+    <value>龙胜大山里的原味造纸术</value>
+  </data>
+  <data name="Article07P01" xml:space="preserve">
+    <value>7月16日，荔浦县修仁镇建南街的老艺人在制作纸扎工艺品。荔浦纸扎工艺是自治区级非物质文化遗产项目。</value>
+  </data>
+  <data name="Article07P02" xml:space="preserve">
+    <value>10月21日晚上8点多，我市中山中路上人头攒动，热闹非常，第四届桂林国际山水文化旅游节艺术巡游在这里激情上演。在展示桂林多彩文化的46个方阵中，荔浦县的《十二生肖》纸扎工艺大荟萃——— 栩栩如生的十二生肖头像吸引了观众的眼球，赢得了一阵阵喝彩声。</value>
+  </data>
+  <data name="Article07P03" xml:space="preserve">
+    <value>如果不是在这样大型的文化节日，要看到这样丰富多彩的纸扎工艺品展示是不那么容易的。相关资料显示，纸扎起源于古代民间宗教祭祀活动，后来逐渐演变成人们庆祝传统节日的一种装饰艺术，特别是在明清时期，每逢节日或喜庆之际，就是民间艺人充分施展其技艺之时。</value>
+  </data>
+  <data name="Article07P04" xml:space="preserve">
+    <value>而在荔浦修仁镇，这个有着纸扎传统的古镇，随着时代的发展，如今会纸扎工艺的老艺人不过3人。10月11日下午，记者来到这里探访了其中一位纸扎民间艺人。</value>
+  </data>
+  <data name="Article07P05" xml:space="preserve">
+    <value>最让人注目的还是那些已做成的纸扎工艺品：狮头、将军像、龙珠、龙头……这些纸扎工艺品色彩鲜艳，栩栩如生。</value>
+  </data>
+  <data name="Article07PicInfo01" xml:space="preserve">
+    <value>谢应熙在给纸扎人像绘色。</value>
+  </data>
+  <data name="Article07Title" xml:space="preserve">
+    <value>探访荔浦修仁镇纸扎工艺：曾家喻户晓现仅有3人会</value>
+  </data>
+  <data name="Article08P01" xml:space="preserve">
+    <value>油纸伞，在传统文化的记述中可谓源远流长。走过1000多年的历史，并在国内和亚洲许多国家不断传承，发扬光大。</value>
+  </data>
+  <data name="Article08P02" xml:space="preserve">
+    <value>在桂林，油纸伞的技艺曾经广泛流传。其中，又以永福县罗锦镇的油纸伞最为著名。10月10日，记者走进罗锦镇桂林市罗锦雨伞非遗传承人李六七家中，去探访这一在那里辉煌百年的传统工艺。</value>
+  </data>
+  <data name="Article08P03" xml:space="preserve">
+    <value>油纸伞不仅精致美观，而且还能防雨又可防晒，在人们的日常生活中曾被广泛使用。据相关史料记载，油纸伞至今已使用了1000多年，而且在国内和亚洲许多国家都得到不断地传承和发扬光大。</value>
+  </data>
+  <data name="Article08P04" xml:space="preserve">
+    <value>2011年11月9日-11日，由中国造纸协会主办的“2011中国国际造纸和装备博览会暨全国纸张订货交易会”在山水甲天下的桂林市国际会展中心如期举行。</value>
+  </data>
+  <data name="Article08PicInfo01" xml:space="preserve">
+    <value>李六七老人的妻子在旋转把玩着自制的油纸伞</value>
+  </data>
+  <data name="Article08PicInfo02" xml:space="preserve">
+    <value>做工精致的伞骨</value>
+  </data>
+  <data name="Article08Title" xml:space="preserve">
+    <value>探寻桂林传统工艺：逐渐消逝的靓丽油纸伞</value>
+  </data>
+  <data name="Article09H201" xml:space="preserve">
+    <value>明信片实物展示</value>
+  </data>
+  <data name="Article09P01" xml:space="preserve">
+    <value>也许你来过这个校园，感受过这里清新的空气；也许你曾漫步花江，看到过碧蓝的天空和美丽的日暮；也许你未曾认识他却曾听朋友提起……但是你不知道她的另一面——呈现在纸上的一面。让我们带领你的眼睛走进这一个陌生又熟悉的地方……</value>
+  </data>
+  <data name="Article09PicInfo01" xml:space="preserve">
+    <value>桂林电子科技大学花江校区校门</value>
+  </data>
+  <data name="Article09PicInfo02" xml:space="preserve">
+    <value>桂林电子科技大学花江校区迎宾桥</value>
+  </data>
+  <data name="Article09PicInfo03" xml:space="preserve">
+    <value>桂林电子科技大学花江校区第一教学楼</value>
+  </data>
+  <data name="Article09PicInfo04" xml:space="preserve">
+    <value>桂林电子科技大学花江校区实训中心</value>
+  </data>
+  <data name="Article09PicInfo05" xml:space="preserve">
+    <value>桂林电子科技大学花江校区行政楼</value>
+  </data>
+  <data name="Article09PicInfo06" xml:space="preserve">
+    <value>桂林电子科技大学花江校区图书馆</value>
+  </data>
+  <data name="Article09PicInfo07" xml:space="preserve">
+    <value>桂林电子科技大学信科院</value>
+  </data>
+  <data name="Article09PicInfo08" xml:space="preserve">
+    <value>桂林电子科技大学东区综合教学楼</value>
+  </data>
+  <data name="Article09PicInfo09" xml:space="preserve">
+    <value>桂林电子科技大学东区图书馆</value>
+  </data>
+  <data name="Article09Title" xml:space="preserve">
+    <value>纸上桂电——一个你不知道的桂电</value>
+  </data>
+  <data name="Article09TitleLite" xml:space="preserve">
+    <value>纸上校园</value>
+  </data>
+  <data name="Article10P01" xml:space="preserve">
+    <value>花江校区图书馆是我国高校单体建筑面积最大之一的图书馆，建筑面积4.2万平方米。图书馆设有办公室、技术信息部、采编部、流通部、阅览部、花江校区管理部等业务部门。馆藏纸质图书174万册、电子图书 123万种、外文核心数据库26个、中文数据库45个、中外文期刊（含电子期刊）达19000多种。具有先进的网络信息平台，各类公共服务设施齐全。</value>
+  </data>
+  <data name="Article10P02" xml:space="preserve">
+    <value>自1995年引进ILAS系统，实现计算机管理以来，图书馆努力建设数字化图书馆，引进知识发现系统、RFID系统、自助文印系统、移动图书馆、微信图书馆，建设个性化、智能化、开放化的高效文献信息中心，让广大师生不受任何时间和空间的限制，在任意可联网设备上实现本馆和云图书馆各类信息资源统一检索、全文获取和推送服务,提供在线阅读、全文检索、离线借阅、移动阅读、下载、打印等数字内容和知识服务。</value>
+  </data>
+  <data name="Article10P03" xml:space="preserve">
+    <value>图书馆是纸的家园，纸肩负着传递知识与力量的责任，图书馆为桂电的师生营造了一个充满知识的家的感觉。我们在这里学习，在这里交流，在这里吸收纸上带来的精神养分，也 在这里不断的提升自我。我们是幸运的，不需要搬运成卷的书籍，也不需要翻山越岭的借阅书籍，更不需要手抄书籍才能保存知识。在21世纪生活的我们拥有纸带来的最丰富的资源，贴身的感受它所带来的温度。</value>
+  </data>
+  <data name="Article10PicInfo01" xml:space="preserve">
+    <value>桂林电子科技大学花江校区图书馆外部正面</value>
+  </data>
+  <data name="Article10PicInfo02" xml:space="preserve">
+    <value>图书馆内部风景</value>
+  </data>
+  <data name="Article10PicInfo03" xml:space="preserve">
+    <value>图书馆二楼局部</value>
+  </data>
+  <data name="Article10PicInfo04" xml:space="preserve">
+    <value>图书馆的光与影</value>
+  </data>
+  <data name="Article10PicInfo05" xml:space="preserve">
+    <value>图书馆的夜景</value>
+  </data>
+  <data name="Article10Title" xml:space="preserve">
+    <value>纸的家园——桂林电子科技大学花江校区图书馆</value>
+  </data>
+  <data name="Article10TitleLite" xml:space="preserve">
+    <value>华南第一馆</value>
+  </data>
+  <data name="Article11H201" xml:space="preserve">
+    <value>一、图书馆精心举办的活动海报</value>
+  </data>
+  <data name="Article11H202" xml:space="preserve">
+    <value>二、活动举办现场照片</value>
+  </data>
+  <data name="Article11H203" xml:space="preserve">
+    <value>三、作品展示</value>
+  </data>
+  <data name="Article11PicInfo01" xml:space="preserve">
+    <value>“独来独往”创作坊作品展</value>
+  </data>
+  <data name="Article11PicInfo02" xml:space="preserve">
+    <value>“青春纪”摄影比赛</value>
+  </data>
+  <data name="Article11PicInfo03" xml:space="preserve">
+    <value>“百悦杯”书画艺术展评委现场书法</value>
+  </data>
+  <data name="Article11PicInfo04" xml:space="preserve">
+    <value>书画展展厅</value>
+  </data>
+  <data name="Article11Title" xml:space="preserve">
+    <value>纸的作品展</value>
+  </data>
+  <data name="Article12P01" xml:space="preserve">
+    <value>纸是我们在生活当中最最常见的东西，就像是空气一般，最不起眼但是却十分重要。我们认为从最普通的物品中出发，发现创新点，才是不普通的创客。于是围绕这个点，我们寻找了很多关于纸的信息。发现了很多我们意想不到的有趣内容。于是我们针对于找到的资料进行设计，把纸的主题发挥到极致，尽情的向大家展示一个不一样的纸的网站。</value>
+  </data>
+  <data name="Article12P02" xml:space="preserve">
+    <value>不光光是国外的创意，我们重点寻找了国内的设计创客，并对于国际大展中担任评委或者参赛选手的背景以及作品添加了相关连接。针对本土的创客，我们也努力寻找了关于龙胜、荔浦本土的纸艺。创客与年龄无关，与学历无关。</value>
+  </data>
+  <data name="Article12P03" xml:space="preserve">
+    <value>社会科技在不断的进步着，一些事物正在悄无声息的消失着，比如城市中的旧书店，二手书店，已经在我们匆忙的脚步中化为虚无，而如今的地铁、公交车上也满是电子产品的外壳味道。在漫长的旅途中细品一本好书已是难得看到的景象，但这样的时代就在几年前还随处可见。我们有责任保护珍贵的东西，当然有一群这样的人也在努力着……他们就是纸客。他们是这个世界的设计师、建筑师、科学家，虽然处于各种领域中，年龄也各异，但是他们都保留着对纸的狂热，这就是纸的温度，也是纸客们的心的温度。</value>
+  </data>
+  <data name="Article12P04" xml:space="preserve">
+    <value>希望大家能通过我们的网站看到他们的创意和热情，对于纸有更深一层的了解。最后感谢为我们网站提供版权的设计癖，网站中大部分的创意产品都来源于此。感谢为我们提供桂电明信片原图的木樨堂手绘，为我们展示了一个不一样的桂电，最后感谢一起工作的小组成员，没有你们的努力就没有这个网站的存在，是你们给它注入了鲜活的生命。</value>
+  </data>
+  <data name="Article12P05" xml:space="preserve">
+    <value>感谢生活、感谢纸带给我们的温暖。</value>
+  </data>
+  <data name="Article12PicInfo01" xml:space="preserve">
+    <value>本网站以“纸客”为主题进行设计，为什么是纸呢？</value>
+  </data>
+  <data name="Article12Title" xml:space="preserve">
+    <value>关于我们</value>
+  </data>
+  <data name="WorkLink" xml:space="preserve">
+    <value>设计作品链接</value>
+  </data>
+</root>

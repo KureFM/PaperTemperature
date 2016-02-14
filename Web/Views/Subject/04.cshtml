@@ -1,0 +1,30 @@
+﻿<link href="/content/picdisplay.css" type="text/css" rel="stylesheet">
+<script src="/scripts/picdisplay.js"></script>
+<div class="picdisplay">
+    @foreach (var i in Enumerable.Range(1, 15))
+    {
+        <div class="picunit">
+            <a href="">
+                <img src="@string.Format("/images/picdisplay/04/{0}.jpg",i)" alt="" />
+                <span>@Res.SubjectInlineTitle(4, i)</span>
+            </a>
+        </div>
+    }
+</div>
+<div class="picdetailurl" style="display: none;">
+    @foreach (var i in Enumerable.Range(1, 15))
+    {
+        <span style="display: none;">@Url.ImageUrl(ImageTo.Subject, 4, i)</span>
+    }
+</div>
+<div class="picdetail">
+    <div class="picarticle">
+        <div class="picscroll">
+
+        </div>
+        <div class="close">
+            <img src="/images/picdisplay/close.png" alt="">
+            <img class="hovered" src="/images/picdisplay/close-hovered.png" alt="">
+        </div>
+    </div>
+</div>

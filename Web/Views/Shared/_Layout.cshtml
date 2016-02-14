@@ -1,0 +1,22 @@
+﻿@using System.Threading;
+<!DOCTYPE html>
+<html lang="@Thread.CurrentThread.CurrentUICulture.ToString()">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>@String.Format("{0} - {1}", ViewBag.Title, Resources.Common.PaperTemperature)</title>
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="shortcut icon" href="/images/favicon.png" type="image/png">
+    <link rel="icon" href="/images/favicon.png" type="image/png">
+    @RenderSection("styles", required: false)
+    @*@Scripts.Render("~/bundles/modernizr")*@
+</head>
+<body>
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/common")
+    @RenderSection("scripts", required: false)
+
+    @RenderBody()
+</body>
+</html>

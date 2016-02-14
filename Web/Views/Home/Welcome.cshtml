@@ -1,0 +1,144 @@
+﻿@{
+    ViewBag.Title = Resources.Common.Welcome;
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@section styles{
+    <link rel="stylesheet" href="/content/font-awesome.min.css">
+    <style>
+        * {
+            padding: 0;
+            font-family: "Microsoft YaHei", Simsun;
+            -webkit-box-sizing: border-box;
+            -moz-box-sizing: border-box;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-image: url(/images/welcome/bg.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            /*width: 600px;*/
+        }
+
+        .container {
+            position: relative;
+            top: 70px;
+            text-align: center;
+            font-weight: lighter;
+        }
+
+        .w-logo {
+            width: 16em;
+        }
+
+        .text {
+            margin: 40px 0;
+            font-size: 1.8em;
+            color: white;
+        }
+
+            .text hr {
+                width: 20em;
+                background: white;
+                height: 2px;
+            }
+
+        .enter {
+            display: inline-block;
+            padding: 7px 35px;
+            border: 2px solid white;
+            border-radius: 30px;
+            text-decoration: none;
+            color: white;
+            font-size: 1.3em;
+            transition: box-shadow 0.5s, text-shadow 0.5s;
+            -moz-transition: box-shadow 0.5s, text-shadow 0.5s;
+            -webkit-transition: box-shadow 0.5s, text-shadow 0.5s;
+            -o-transition: box-shadow 0.5s, text-shadow 0.5s;
+        }
+
+            .enter:hover,
+            .enter:focus {
+                box-shadow: 0 0 20px #f34109 inset, 0 0 20px #f34109;
+                text-shadow: 0 0 20px #f34109;
+            }
+
+        .player {
+            position: fixed;
+            bottom: 25px;
+            right: 50px;
+        }
+
+        .sap {
+            height: 35px;
+            display: table-cell;
+            vertical-align: middle;
+            color: white;
+            font-size: 30px;
+            text-decoration: none;
+            opacity: 0.65;
+            transition: all 0.5s;
+            -moz-transition: all 0.5s;
+            -webkit-transition: all 0.5s;
+            -o-transition: all 0.5s;
+        }
+
+            .sap span {
+                display: inline-block;
+                vertical-align: middle;
+                font-size: 10px;
+            }
+
+            .sap i {
+                display: inline-block;
+            }
+
+            .sap:hover {
+                opacity: 1;
+                text-shadow: 0 0 30px #f34109;
+            }
+    </style>
+}
+
+@section scripts{
+    <script>
+        // 1播放，0暂停
+        var state = 1;
+        $(document).ready(function () {
+            $('.sap').click(function (event) {
+                event.preventDefault();
+                if (state == 1) {
+                    $('audio').trigger('pause');
+                    $('.sap i').removeClass('fa-pause').addClass('fa-play');
+                    state = 0;
+                }
+                else if (state == 0) {
+                    $('audio').trigger('play');
+                    $('.sap i').removeClass('fa-play').addClass('fa-pause');
+                    state = 1;
+                }
+            });
+        });
+    </script>
+}
+
+<audio autoplay loop>
+    <source src="/music/bgm.ogg" type="audio/ogg">
+    <source src="/music/bgm.mp3" type="audio/mpeg">
+</audio>
+<div class="container">
+    <img src="/images/welcome/w-logo.png" alt="" class="w-logo">
+    <div class="text">
+        <hr>
+        <span>@Resources.Welcome.Text</span>
+        <hr>
+    </div>
+    <a class="enter" href="@Url.IndexUrl()" target="_blank">@Resources.Welcome.Enter</a>
+    <div class="player">
+        <a class="sap" href="">
+            <span>与音乐相伴</span>
+            <i class="fa fa-pause"></i>
+        </a>
+    </div>
+</div>

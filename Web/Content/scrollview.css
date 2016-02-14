@@ -1,0 +1,94 @@
+html {
+    overflow: hidden;
+}
+.scroll_view {
+    width: 100%;
+    text-align: center;
+}
+
+.scroll_view img {
+    vertical-align: top;
+}
+
+.scroll_unit {
+    text-align: center;
+}
+
+.div_line {
+    margin: 0 auto;
+    border: 0;
+    height: 1px;
+    width: 75%;
+    background: #f72129;
+}
+
+.next_button {
+    position: absolute;
+    bottom: 150px;
+    width: 100%;
+}
+
+.next_button a {
+    margin: 0 auto;
+    display: block;
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    position: relative;
+    /*background: url(../images/parallaxscroll/next.png) center no-repeat;*/
+}
+
+.next_button img{
+    position: absolute;
+    display: inline-block;
+    top: 0;
+    left: 0;
+}
+
+.selected{
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+    -webkit-transition: opacity 0.5s ease-in-out;
+    -o-transition: opacity 0.5s ease-in-out;
+    -moz-transition: opacity 0.5s ease-in-out;
+}
+
+.next_button:hover .selected {
+    opacity: 1;
+}
+
+.scorll_nav {
+    width: 20px;
+    display: block;
+    position: fixed;
+    right: 25px;
+    list-style-type: none;
+}
+
+.scorll_nav li {
+    display: block;
+    margin: 14px 0;
+}
+
+.nav_link{
+    display: block;
+    position: relative;
+}
+
+.headline{
+    position: absolute;
+    white-space: nowrap;
+    position: absolute;
+    top: 0;
+    right: 20px;
+    color: #f72129;
+    text-align: right;
+    opacity: 0;
+    -webkit-transition: opacity 0.3s linear;
+    -moz-transition: opacity 0.3s linear;
+    transition: opacity 0.3s linear;
+}
+
+.nav_link:hover .headline, #flash_headline{
+    opacity: 1;
+}

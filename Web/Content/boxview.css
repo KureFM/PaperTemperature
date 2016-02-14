@@ -1,0 +1,46 @@
+.content {
+    text-align: center;
+}
+
+.boxview {
+    display: inline-block;
+    font-size: 0;
+    width: 1000px;
+    height: 550px;
+    margin: 20px auto;
+}
+
+.boxunit, .mask{
+    width: 250px;
+    height: 550px;
+}
+
+.boxunit {
+    display: inline-block;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.mask {
+    display: table-cell;
+    vertical-align:middle;
+    background-image: -webkit-linear-gradient(rgba(35,35,95,0.75), rgba(103,45,103,0.60));
+    background-image: -o-linear-gradient(rgba(35,35,95,0.75), rgba(103,45,103,0.60));
+    background-image: linear-gradient(rgba(35,35,95,0.75), rgba(103,45,103,0.60));
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+}
+
+.text {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 30px;
+    color: white;
+}
+
+.mask:hover {
+    opacity: 0;
+}

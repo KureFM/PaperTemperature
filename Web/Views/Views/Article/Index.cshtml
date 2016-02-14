@@ -1,0 +1,28 @@
+﻿@{
+    int subjectID = ViewBag.SubjectID;
+    int articleID = ViewBag.ArticleID;
+    ViewBag.Title = Res.ArticleTitle(ViewBag.ArticleID);
+    string id = string.Format("{0:D2}", ViewBag.ArticleID);
+    Layout = "~/Views/Shared/_WebTemplate.cshtml";
+}
+
+@section styles{
+    <link href="/content/article.css" type="text/css" rel="stylesheet">
+    <link rel="stylesheet" href="/content/font-awesome.min.css">
+}
+
+@section navigation{
+    <div class="nav">
+        <a href="@Url.IndexUrl()">@Resources.Common.Index</a> >
+        <a href="@Url.SubjectUrl(subjectID)">@Res.SubjectTitle(subjectID)</a> >
+        <span>@Res.ArticleTitle(articleID)</span>
+    </div>
+}
+
+
+<div class="article">
+    @{
+        Html.RenderPartial(id);
+    }
+</div>
+

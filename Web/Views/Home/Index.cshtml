@@ -1,0 +1,56 @@
+﻿@{
+    ViewBag.Title = Resources.Common.Index;
+    Layout = "~/Views/Shared/_WebTemplate.cshtml";
+}
+
+
+@section scripts{
+    <script src="/scripts/unslider.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            var unslider = $('.slider').unslider({
+                speed: 500, //  The speed to animate each slide (in milliseconds)
+                delay: 3000, //  The delay between slide animations (in milliseconds)
+                keys: true, //  Enable keyboard (left, right) arrow shortcuts
+                dots: true, //  Display dot navigation
+                fluid: true //  Support responsive design. May break non-responsive designs
+            });
+            $('.unslider-arrow').click(function () {
+                var fn = this.className.split(' ')[1];
+
+                //  Either do unslider.data('unslider').next() or .prev() depending on the className
+                unslider.data('unslider')[fn]();
+            });
+            // auto scroll to content center
+            // scrollToCenter('.content', 2000, 500);
+            if (elOffset('.dots').bottom > $(window).height()) {
+                $('.dots').css('position', 'fixed')
+            }
+            $(document).scroll(function () {
+                if (docOffset().bottom > elOffset('.slider').bottom) {
+                    $('.dots').css('position', '')
+                }
+                else {
+                    $('.dots').css('position', 'fixed')
+                };
+            })
+            $(window).resize(function () {
+                if ($(window).width() > 985) {
+                    $('.slider ul li').css("width", $(window).width())
+                }
+            });
+        });
+    </script>
+}
+
+<div class="slider">
+    <ul>
+        <li style="background-image:url(/images/index/01.jpg);"></li>
+        <li style="background-image:url(/images/index/02.jpg);"></li>
+        <li style="background-image:url(/images/index/03.jpg);"></li>
+        <li style="background-image:url(/images/index/04.jpg);"></li>
+        <li style="background-image:url(/images/index/05.jpg);"></li>
+    </ul>
+</div>
+
+

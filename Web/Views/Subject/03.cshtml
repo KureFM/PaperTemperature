@@ -1,0 +1,36 @@
+﻿<link href="/content/gallery.css" type="text/css" rel="stylesheet">
+<script language="JavaScript">
+    $(document).ready(function () {
+        var picUrl = ["@Url.ArticleUrl(1)", "@Url.ArticleUrl(2)", "@Url.ArticleUrl(3)", "@Url.ArticleUrl(4)"]
+        $(".text_mask").each(function(index, el) {
+            this.href = picUrl[index];
+        });
+        $(".click_mask").each(function(index, el) {
+            this.href = picUrl[index];
+        });
+        // auto scroll to content center
+        // scrollToCenter('.content', 2000, 500);
+    });
+</script>
+<div class="gallery">
+    <div class="picture pic1_size" style="background-image: url(/images/gallery/1.jpg);">
+        <a class="mask pic1_size" href="@Url.ArticleUrl(1)">
+            <span class="text">@Resources.Article.Article01Title</span>
+        </a>
+    </div>
+    <div class="picture pic2_size" style="background-image: url(/images/gallery/2.jpg);">
+        <a class="mask pic2_size" href="@Url.ArticleUrl(2)">
+            <span class="text">@Resources.Article.Article02Title</span>
+        </a>
+    </div>
+    <div class="picture pic3_size" style="background-image: url(/images/gallery/3.jpg);">
+        <a class="mask pic3_size" href="@Url.ArticleUrl(3)">
+            <span class="text">@Resources.Article.Article03Title</span>
+        </a>
+    </div>
+    <div class="picture pic4_size" style="background-image: url(/images/gallery/4.jpg);">
+        <a class="mask pic4_size" href="@Url.ArticleUrl(4)">
+            <span class="text">@Resources.Article.Article04Title</span>
+        </a>
+    </div>
+</div>

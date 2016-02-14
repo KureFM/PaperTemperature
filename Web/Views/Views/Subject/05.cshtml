@@ -1,0 +1,29 @@
+﻿<link href="/content/grilledisplay.css" type="text/css" rel="stylesheet">
+<script src="/scripts/grilledisplay.js"></script>
+<div class="grilledisplay">
+    <div class="slidecontainer">
+        <a href="" class="large slideunit" style="background-image: url(/images/grilledisplay/1.0.jpg);"><span class="info">@Res.SubjectInlineTitle(5, 1)</span></a>
+        @foreach (var i in Enumerable.Range(2, 9))
+        {
+            <a href="" class="slideunit" style="background-image: url(/images/grilledisplay/@i.0.jpg);"><span class="info" style="display: none;">@Res.SubjectInlineTitle(5, i)</span></a>
+        }
+    </div>
+    <a href="" class="prev"></a>
+    <a href="" class="next"></a>
+</div>
+<div class="picdetailurl" style="display: none;">
+    @foreach (var i in Enumerable.Range(1, 10))
+    {
+        <span style="display: none;">@Url.ImageUrl(ImageTo.Subject, 5, i)</span>
+    }
+</div>
+<div class="picdetail">
+    <div class="picarticle">
+        <div class="picscroll">
+        </div>
+        <div class="close">
+            <img src="/images/picdisplay/close.png" alt="">
+            <img class="hovered" src="/images/picdisplay/close-hovered.png" alt="">
+        </div>
+    </div>
+</div>

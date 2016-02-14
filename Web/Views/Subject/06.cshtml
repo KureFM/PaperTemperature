@@ -1,0 +1,20 @@
+﻿<link href="/content/listdisplay.css" type="text/css" rel="stylesheet">
+<div class="listdisplay">
+    @foreach (var i in Enumerable.Range(1, 4))
+    {
+        var url = Url.ArticleUrl(i + 4);
+        <div class="listunit">
+            <a href="@url"><img src="/images/listdisplay/@(i).jpg" alt="" class="frontpic"></a>
+            <div class="info">
+                <a href="@url" class="title">@Res.ArticleTitle(i + 4)</a>
+                <hr class="inline">
+                <p class="text">@Res.SubText(Res.ArticlePara(i + 4, 1),100)</p>
+                <a href="@url" class="learnmore">@Resources.Common.LearnMore ></a>
+            </div>
+        </div>
+        if (i != 4)
+        {
+            <hr class="outline" />
+        }
+    }
+</div>
