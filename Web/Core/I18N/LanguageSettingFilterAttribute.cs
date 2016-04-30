@@ -16,9 +16,11 @@ namespace Web.Core.I18N
             if (filterContext.RouteData.Route.GetType().Name == "Route")
             {
                 object cultureValueObj;
+                // 取语言参数
                 if (filterContext.RouteData.Values.TryGetValue("lang", out cultureValueObj))
                 {
                     var cultureValue = cultureValueObj.ToString();
+                    // 检查语言是否被支持
                     if (I18N.IsSupport(LanguageTag.Parse(cultureValue)))
                     {
                         Thread.CurrentThread.CurrentUICulture = new System.Globalization.CultureInfo(cultureValue.ToString());

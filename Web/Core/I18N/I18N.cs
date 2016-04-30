@@ -72,9 +72,9 @@ namespace Web.Core.I18N
                 }
                 else
                 {
-                    fallbackList = new List<LanguageTag>() 
-                    { 
-                        LanguageTag.Parse(item.Name) 
+                    fallbackList = new List<LanguageTag>()
+                    {
+                        LanguageTag.Parse(item.Name)
                     };
                 }
 
@@ -95,7 +95,7 @@ namespace Web.Core.I18N
                 {
                     fallbackList.Add(LanguageTag.Parse(ci.Name));
                 }
-                catch (Exception)
+                catch (ArgumentException)
                 {
                 }
                 ci = ci.Parent;

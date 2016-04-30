@@ -4,6 +4,7 @@
 }
 
 @section styles{
+    <link rel="stylesheet" href="/content/font-awesome.min.css">
     @Styles.Render("~/content/css")
     @RenderSection("styles", required: false)
 }
@@ -11,6 +12,18 @@
 
 @section scripts{
     @RenderSection("scripts", required: false)
+    <script>
+        $(document).ready(function () {
+            $(document).scroll(function () {
+                if (docOffset().top > $(window).height()) {
+                    $('#scrolltop').show();
+                }
+                else {
+                    $('#scrolltop').hide();
+                };
+            });
+        });
+    </script>
 }
 
 <div class="changelang">
@@ -53,3 +66,6 @@
         <span>@Resources.Common.GroupName</span>
     </a>
 </div>
+<span id="scrolltop" onclick="window.scrollToValue(0,300)">
+    <i class="fa fa-angle-double-up"></i>
+</span>

@@ -11,6 +11,7 @@ namespace Web
     {
         public static void RegisterRoutes(RouteCollection routes)
         {
+
             routes.IgnoreRoute("{resource}.axd/{*pathInfo}");
 
             //欢迎路由
@@ -25,7 +26,7 @@ namespace Web
                 name: "Home",
                 url: "{home}",
                 defaults: new { controller = "Home", action = "Index", home = "Index" },
-                constraints: new { home = "(Index|Home|Default|)" }
+                constraints: new { home = "(Index|Home|Default)" }
                 );
 
             //业务路由
@@ -44,6 +45,7 @@ namespace Web
                 constraints: new { action = "(Subject|Article)", aid = @"\d+", bid = @"\d+" }
                 );
 
+            //默认路由
             routes.MapRoute(
                 name: "Default",
                 url: "{controller}/{action}/{id}",

@@ -212,6 +212,23 @@ a {
         opacity: 1;
     }
 
+
+#scrolltop {
+    /*background: url("../images/uptotop.png") center no-repeat;*/
+    /*background-size: cover;*/
+    cursor: pointer;
+    position: fixed;
+    bottom: 40px;
+    right: 30px;
+    display: none;
+    color: #ff5e2c;
+}
+
+    #scrolltop i {
+        font-size: 4em;
+        text-shadow: 0 0 40px #666666;
+    }
+
 /*.dot:hover{
     border: 3px solid #f34109;
 }*/

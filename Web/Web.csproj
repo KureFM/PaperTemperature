@@ -226,6 +226,7 @@
     <Content Include="Images\picdisplay\close-hovered.png" />
     <Content Include="Images\picdisplay\close.png" />
     <Content Include="Images\texture.png" />
+    <Content Include="Images\uptotop.png" />
     <Content Include="Images\welcome\bg.jpg" />
     <Content Include="Images\welcome\w-logo.png" />
     <Content Include="Images\footer.jpg" />
