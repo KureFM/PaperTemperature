@@ -16,11 +16,10 @@ namespace Web
 
     public class MvcApplication : System.Web.HttpApplication
     {
-        static LogProvider log = new LogProvider("exc.log");
         protected void Application_Start()
         {
             AreaRegistration.RegisterAllAreas();
-
+            Log.Init();
             // WebApiConfig.Register(GlobalConfiguration.Configuration);
             FilterConfig.RegisterGlobalFilters(GlobalFilters.Filters);
             RouteConfig.RegisterRoutes(RouteTable.Routes);
@@ -31,15 +30,18 @@ namespace Web
             BundleConfig.RegisterBundles(BundleTable.Bundles);
         }
 
-#if DEBUG
+
         void Application_Error(object sender, EventArgs e)
         {
+
             //获取到HttpUnhandledException异常，这个异常包含一个实际出现的异常
             Exception ex = Server.GetLastError();
+            Log.LogException(ex);
+#if DEBUG
             HttpContext.Current.Response.Write(ex);
-            log.LogException(ex);
             Server.ClearError();//处理完及时清理异常
-        }
 #endif
+        }
+
     }
 }

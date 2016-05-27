@@ -12,7 +12,7 @@ namespace Web.Core
 
         public LogProvider(string logFile)
         {
-            LogFile = Path.Combine(System.Web.HttpContext.Current.Request.PhysicalApplicationPath, logFile);
+            LogFile = Path.Combine(HttpRuntime.AppDomainAppPath.ToString(), logFile);
             FileStream fs = new FileStream(LogFile, FileMode.Append);
             StreamWriterWithTimestamp sw = new StreamWriterWithTimestamp(fs);
             sw.AutoFlush = true;
